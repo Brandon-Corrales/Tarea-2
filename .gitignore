@@ -1,0 +1,28 @@
+# ── Scala / Scala-CLI
+target/
+.scala-build/
+.bloop/
+.metals/
+.bsp/
+
+# Artefactos de compilación (por si quedan fuera de esas carpetas)
+*.class
+*.tasty
+
+# ── Node / JS
+node_modules/
+dist/
+build/
+.pnpm-store/
+
+# ── IDE / SO
+.vscode/
+.idea/
+.DS_Store
+*.log
+logs/
+npm-debug.log*
+
+# ── Env
+.env
+.env.*.local
